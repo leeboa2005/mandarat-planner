@@ -44,7 +44,6 @@
 
 - **달성률 시각화**
   - 전체 및 목표별 달성률 표시
-  - 목표 hover 시 파도처럼 차오르는 애니메이션으로 진행률을 표현
 
 - **결과 공유**
   - 목표와 달성 현황을 PDF로 저장
@@ -125,7 +124,25 @@ flowchart TD
 
 ## <h3 id="ui">🎨 UI </h3>
 
-<img width="1441" height="792" alt="image" src="https://github.com/user-attachments/assets/b960438b-2b8f-46fa-ad98-e31f612fe8be" />
+<table width="100%">
+  <tr>
+    <td align="center" width="50%">
+      <img src="https://github.com/user-attachments/assets/5d46a0ad-b977-4f14-a397-ca9d207a5dc9" alt="screen 1" style="width:100%;">
+    </td>
+    <td align="center" width="50%">
+      <img  alt="screen" src="https://github.com/user-attachments/assets/3f9d3178-c42e-4946-8706-855b9f6d248b" alt="screen 2" style="width:100%;"> />
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="50%">
+      <img src="https://github.com/user-attachments/assets/a419cf61-5515-4626-8492-41c3e0759b8c" alt="screen 3" style="width:100%;">
+    </td>
+    <td align="center" width="50%">
+      <img src="https://github.com/user-attachments/assets/070c510a-b333-47c0-9f5e-acc09bcee813" alt="screen 4" style="width:100%;">
+    </td>
+  </tr>
+</table>
+
 
 ## <h3 id="role">🤝 협업 및 역할 분담</h3>
 
