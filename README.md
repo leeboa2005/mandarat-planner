@@ -130,7 +130,7 @@ flowchart TD
       <img src="https://github.com/user-attachments/assets/5d46a0ad-b977-4f14-a397-ca9d207a5dc9" alt="screen 1" style="width:100%;">
     </td>
     <td align="center" width="50%">
-      <img  alt="screen" src="https://github.com/user-attachments/assets/3f9d3178-c42e-4946-8706-855b9f6d248b" alt="screen 2" style="width:100%;"> />
+      <img  alt="screen" src="https://github.com/user-attachments/assets/3f9d3178-c42e-4946-8706-855b9f6d248b" alt="screen 2" style="width:100%;">
     </td>
   </tr>
   <tr>
