@@ -66,11 +66,6 @@
   <img src="https://img.shields.io/badge/Supabase-3FCF8E?style=for-the-badge&logo=supabase&logoColor=white" />
 </p>
 
-### Design
-<p>
-  <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" />
-</p>
-
 ### Tools
 <p>
   <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
@@ -130,8 +125,7 @@ flowchart TD
 
 ## <h3 id="ui">🎨 UI 및 인터랙션</h3>
 
-🐣 상세 내용을 업데이트할 예정입니다.
-
+<img width="1441" height="792" alt="image" src="https://github.com/user-attachments/assets/b960438b-2b8f-46fa-ad98-e31f612fe8be" />
 
 ## <h3 id="role">🤝 협업 및 역할 분담</h3>
 
