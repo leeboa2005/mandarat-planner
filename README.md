@@ -1,5 +1,5 @@
-# 🧩 만다라트 차트
-> 핵심 목표와 8가지 세부 계획을 한 화면에 시각화하는 목표 관리 솔루션
+# 🧩 만다라트 플래너
+> 핵심 목표와 8가지 세부 목표를 단계별로 시각화하고, 달성 과정을 한눈에 관리할 수 있는 목표 관리 솔루션
 
 ## 📌 목차
 - [📖 프로젝트 소개](#intro)
@@ -14,22 +14,17 @@
 
 
 ## <h3 id="intro"> 📖 프로젝트 소개</h3>
+만다라트 차트를 기반으로 목표를 설정하고 달성 과정을 시각적으로 관리할 수 있습니다.
+익명 로그인으로 별도 회원가입 없이 바로 목표를 작성할 수 있으며, 
+큰 목표와 세부 목표를 단계적으로 정리하여 진행 상황을 한눈에 확인할 수 있습니다.  
 
-만다라트 차트를 기반으로 목표를 설정하고 달성 과정을 시각적으로 관리할 수 있는 서비스입니다.  
-익명 로그인을 통해 별도의 회원가입 없이 바로 목표를 설정할 수 있으며, 큰 목표와 세부 목표를 단계적으로 정리하면서 목표의 구조와 진행 상황을 한눈에 확인할 수 있도록 구성했습니다.
+만다라트 차트를 통해 목표 간 관계를 시각화하고, 현실적으로 실행 가능한 단계로 나눌 수 있습니다.  
+작성한 목표는 한 해를 돌아보거나, 다른 사람과 공유하며 서로 동기부여를 주고받을 수 있습니다.
 
-이 프로젝트는 목표를 한 번에 크게만 세우고, 정작 단계적으로 실행하지 못해 끝까지 도달하지 못했던 개인적인 경험에서 출발했습니다.  
-만다라트 차트는 큰 목표를 중심으로 단계별 목표와 현실적으로 실행 가능한 세부 목표를 함께 정리할 수 있어, 목표를 막연하게 두는 것이 아니라 실제 행동으로 이어지게 도와줍니다.
+가벼운 마음으로 목표를 작성하고, 
+하나씩 달성해가는 과정을 기록해보세요.
 
-단순히 목표를 나열하는 방식이 아니라, 목표 간의 관계를 만다라트 차트 형태로 시각화해 사용자가 자신의 방향성을 더 명확하게 인식할 수 있도록 하는 데 초점을 맞췄습니다.  
-한 해가 지나 “올해 나는 무엇을 이뤘을까?”라는 질문이 들 때, 따로 정리할 필요 없이 작성해둔 만다라트 차트를 통해 스스로를 돌아볼 수 있고, 이를 다른 사람과 공유하며 동기부여를 얻는 경험도 할 수 있도록 구성했습니다.
-
-가벼운 마음으로 목표를 적어보세요.  
-그리고 그 하나하나를 직접 이뤄가는 과정을 기록해보세요.
-
-
-
-## <h3 id="intro"> ✨ 주요 기능</h3>
+## <h3 id="features"> ✨ 주요 기능</h3>
 
 - **익명 로그인**
   - 회원가입 없이 바로 시작하고, 목표 데이터는 사용자별로 저장
@@ -49,8 +44,6 @@
   - 목표와 달성 현황을 PDF로 저장
   - 카카오톡을 통한 결과 공유 지원
 
-
-
 ## <h3 id="stack">🛠 기술 스택</h3>
 
 ### Frontend
@@ -60,7 +53,7 @@
   <img src="https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
 </p>
 
-### Backend & Infra
+### Backend 
 <p>
   <img src="https://img.shields.io/badge/Supabase-3FCF8E?style=for-the-badge&logo=supabase&logoColor=white" />
 </p>
@@ -69,8 +62,6 @@
 <p>
   <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
 </p>
-
-
 
 ## <h3 id="architecture">🏗 아키텍처 및 데이터 모델</h3>
 
@@ -108,8 +99,8 @@ flowchart TD
     A[익명 로그인]
     A --> B[목표 설정 모달 자동 표시]
 
-    B --> C[큰 목표 8개 입력]
-    C --> D[ 큰 목표 > 세부 목표 1개 입력]
+    B --> C[핵심 목표 8개 입력]
+    C --> D[ 각각의 세부 목표 1개 입력]
 
     D --> E[만다라트 차트 화면 진입]
 
@@ -127,18 +118,18 @@ flowchart TD
 <table width="100%">
   <tr>
     <td align="center" width="50%">
-      <img src="https://github.com/user-attachments/assets/5d46a0ad-b977-4f14-a397-ca9d207a5dc9" alt="screen 1" style="width:100%;">
+      <img src="https://github.com/user-attachments/assets/5d46a0ad-b977-4f14-a397-ca9d207a5dc9" alt="만다르트 메인" style="width:100%;">
     </td>
     <td align="center" width="50%">
-      <img  alt="screen" src="https://github.com/user-attachments/assets/3f9d3178-c42e-4946-8706-855b9f6d248b" alt="screen 2" style="width:100%;">
+      <img  alt="screen" src="https://github.com/user-attachments/assets/3f9d3178-c42e-4946-8706-855b9f6d248b" alt="만다르트 입력 모달1" style="width:100%;">
     </td>
   </tr>
   <tr>
     <td align="center" width="50%">
-      <img src="https://github.com/user-attachments/assets/a419cf61-5515-4626-8492-41c3e0759b8c" alt="screen 3" style="width:100%;">
+      <img src="https://github.com/user-attachments/assets/a419cf61-5515-4626-8492-41c3e0759b8c" alt="screen 3" style="만다르트 입력 모달2">
     </td>
     <td align="center" width="50%">
-      <img src="https://github.com/user-attachments/assets/070c510a-b333-47c0-9f5e-acc09bcee813" alt="screen 4" style="width:100%;">
+      <img src="https://github.com/user-attachments/assets/070c510a-b333-47c0-9f5e-acc09bcee813" alt="screen 4" style="만다르트 달성률 및 결과 화면">
     </td>
   </tr>
 </table>
