@@ -3,7 +3,7 @@ import { supabase } from './lib/supbase';
 import InitialModal from './components/InitialModal';
 
 export default function App() {
-  const [userId, setUserId] = useState<string | null>(null);
+  const [_userId, setUserId] = useState<string | null>(null);
   const [mandalart, setMandalart] = useState<any>(null);
   const [loading, setLoading] = useState(true);
 
