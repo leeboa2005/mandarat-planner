@@ -28,12 +28,12 @@ export default function EditGoalModal({ subGoal, onClose, onSave, onDelete }: Pr
     onClose();
   };
 
-  const handleDelete = () => {
-    if (confirm("이 세부 목표를 삭제하시겠습니까?")) {
-      onDelete();
-      onClose();
-    }
-  };
+//   const handleDelete = () => {
+//     if (confirm("이 세부 목표를 삭제하시겠습니까?")) {
+//       onDelete();
+//       onClose();
+//     }
+//   };
 
   return (
     <div className="fixed inset-0 z-[150] flex items-end sm:items-center justify-center p-4 bg-black/40 animate-in fade-in duration-200">

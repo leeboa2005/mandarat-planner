@@ -132,9 +132,9 @@ export default function DetailView({ goal, mandalart, onBack, onUpdate }: Props)
         <EditGoalModal
           subGoal={editingSubGoal}
           onClose={() => setEditingSubGoal(null)}
-          onSave={(content, isCompleted) => {
+           onSave={(content: string, isCompleted: boolean) => {
             updateSubGoal(editingSubGoal.id, content, isCompleted);
-          }}
+            }}
           onDelete={() => {
             deleteSubGoal(editingSubGoal.id);
           }}
