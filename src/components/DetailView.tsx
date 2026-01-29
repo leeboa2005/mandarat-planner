@@ -1,7 +1,8 @@
 import { useState, useMemo } from 'react';
 import ProgressBar from './ProgressBar';
-import SubGoalItem from './Subgoalitem';
-import EditGoalModal from './EditgoalModal';
+import SubGoalItem from './SubGoalItem';
+import EditGoalModal from './EditGoalModal';
+
 
 interface Props {
   goal: any;
