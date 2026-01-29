@@ -8,11 +8,10 @@ interface Props {
   };
   onClose: () => void;
   onSave: (content: string, isCompleted: boolean) => void;
-//   onDelete: () => void;
+  onDelete?: () => void; 
 }
 
-//onDelete 추가 예정
-export default function EditGoalModal({ subGoal, onClose, onSave }: Props) {
+export default function EditGoalModal({ subGoal, onClose, onSave, onDelete }: Props) {
   const [title, setTitle] = useState(subGoal.content);
   const [isCompleted, setIsCompleted] = useState(subGoal.is_completed);
 
